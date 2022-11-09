@@ -63,7 +63,10 @@ In [2]: trip1 = Trip(origin="Congo Brazzaville", destination="Ghana", nights =2,
 In [3]: trip1.save() # to save values
 In [4]: trip1 # to display
 ```
+## How to populate a DB using django admin GUI
+```
 
+```
 
 
 
