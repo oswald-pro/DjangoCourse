@@ -38,7 +38,11 @@ ls
 ```
 python manage.py runserver
 ```
-
+### Step8: still from the django001 dir. let's create a new app
+for my case app_name = africa
+```
+python manage.py startapp africa
+```
 
 
 
