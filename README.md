@@ -64,9 +64,12 @@ In [3]: trip1.save() # to save values
 In [4]: trip1 # to display
 ```
 ## How to populate a DB using django admin GUI
-```
 
+#### Create a super user account
 ```
+python manage.py createsuperuser
+```
+for my case username : oswald and password : 1234
 
 
 
