@@ -20,3 +20,7 @@ source env_site/bin/activate
 ```
 pip install django
 ```
+### Step5: Start the Django project 
+```
+django-admin startproject <project_name>
+```
