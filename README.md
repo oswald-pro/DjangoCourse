@@ -56,8 +56,12 @@ python manage.py migrate
 ```
 python manage.py shell
 ```
-
-
+```
+In [1]: from africa.models import Trip #import
+In [2]: trip1 = Trip(origin="Congo Brazzaville", destination="Ghana", nights =2, price=5000) #define values
+In [3]: trip1.save() # to save values
+In [4]: trip1 # to display
+```
 
 
 
