@@ -21,6 +21,15 @@ source env_site/bin/activate
 pip install django
 ```
 ### Step5: Start the Django project 
+for my case project_name = django001
 ```
-django-admin startproject <project_name>
+django-admin startproject django001
+```
+
+### Step6: access the django001 dir and list files
+```
+cd django001
+```
+```
+ls
 ```
