@@ -69,7 +69,7 @@ In [4]: trip1 # to display
 ```
 python manage.py createsuperuser
 ```
-for my case username : oswald and password : 1234
+for my case Username:oswald  Email:coroclub02@gmail.com  and  Password:1234
 
 
 
