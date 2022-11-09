@@ -52,6 +52,10 @@ python manage.py makemigrations
 ```
 python manage.py migrate
 ```
+## How to populate a DB using django shell
+```
+python manage.py shell
+```
 
 
 
