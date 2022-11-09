@@ -44,9 +44,10 @@ for my case app_name = africa
 python manage.py startapp africa
 ```
 
-
-
-
+## To make update to the DB
+```
+python manage.py makemigrations
+```
 
 
 
