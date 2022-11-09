@@ -11,8 +11,8 @@ pip install virtualenv
 ```
 virtualenv env_site
 ```
-### Step3: activate the virtualenv dir
-macOS
+### Step3: activate the virtualenv
+on macOS
 ```
 source env_site/bin/activate
 ```
