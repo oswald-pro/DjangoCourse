@@ -48,7 +48,10 @@ python manage.py startapp africa
 ```
 python manage.py makemigrations
 ```
-
+## To make create to the DB
+```
+python manage.py migrate
+```
 
 
 
