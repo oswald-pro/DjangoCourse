@@ -8,3 +8,11 @@ Django tutorials for beginners
 ```
 pip install virtualenv
 ```
+```
+virtualenv env_site
+```
+### Step3: access the virtualenv dir
+
+```
+cd env_site
+```
