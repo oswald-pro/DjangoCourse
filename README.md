@@ -16,3 +16,7 @@ on macOS
 ```
 source env_site/bin/activate
 ```
+### Step4: Install Django insite the project dir
+```
+pip install django
+```
