@@ -34,7 +34,10 @@ then
 ```
 ls
 ```
-
+### Step7: still from the django001 dir. run the project (manage.py file)
+```
+python manage.py runserver
+```
 
 
 
