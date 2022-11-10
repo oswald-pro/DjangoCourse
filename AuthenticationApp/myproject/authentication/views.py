@@ -27,7 +27,7 @@ def my_login(request):
 
         else:
             messages.error(request, "Invalid username or password")
-            return redirect(request, "index")
+            return redirect("index")
 
     return render(request, 'UserAuth/login.html')
 
@@ -50,7 +50,7 @@ def register(request):
         myuser.save()
 
         messages.success(request, "User created successfully!!!")
-        return redirect('/login')
+        return redirect('login')
 
     return render(request, "UserAuth/register.html")
 
