@@ -11,7 +11,7 @@ def login(request):
 
 
 def signup(request):
-    return render(request, "userAuths/signup.html")
+    return render(request, "userAuths /signup.html")
 
 
 def logout(request):
