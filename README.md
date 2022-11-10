@@ -30,6 +30,64 @@ django-admin startproject django001
 ```
 cd django001
 ```
+then
 ```
 ls
 ```
+### Step7: still from the django001 dir. run the project (manage.py file)
+```
+python manage.py runserver
+```
+### Step8: still from the django001 dir. let's create a new app
+for my case app_name = africa
+```
+python manage.py startapp africa
+```
+
+## To make update to the DB
+```
+python manage.py makemigrations
+```
+## To make create to the DB
+```
+python manage.py migrate
+```
+## How to populate a DB using django shell
+```
+python manage.py shell
+```
+Example:
+```
+In [1]: from africa.models import Trip #import
+In [2]: trip1 = Trip(origin="Congo Brazzaville", destination="Ghana", nights =2, price=5000) #define values
+In [3]: trip1.save() # to save values
+In [4]: trip1 # to display
+```
+## How to populate a DB using django admin GUI
+
+#### Create a super user account
+```
+python manage.py createsuperuser
+```
+for my case Username:oswald  Email:coroclub02@gmail.com  and  Password:1234
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
